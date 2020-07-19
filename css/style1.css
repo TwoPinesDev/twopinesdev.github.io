@@ -1,0 +1,226 @@
+/*  color 1 : rgb(246, 197, 136);
+    color 2: rgb(235, 135, 101);
+    color 3: rgb(251, 168, 106);
+    color 4: rgb(178, 120, 109);
+    color 5: rgb(106, 85, 88);
+    color 6: rgb(255, 165, 107);
+    color 7: rgb(181, 114, 101);
+    color 8: rgb(249, 216, 174);
+*/
+
+@media all and (min-width: 1024px) {
+    body {
+    background-color: rgb(178, 120, 109);
+    font-family: 'Pangolin', cursive;
+    }
+    #background_img {
+        position: absolute;
+        height: 100%;
+        width: 70%;
+        bottom: 0;
+        right: 0;
+    }
+    #grid {
+        text-align: center;
+        width: 30%;
+        top: 0;
+        margin-top: 2%;
+        left: 0;
+    }
+    .footer_div_2 {
+        width: 100%;
+        padding-top: 0.75em;
+    }
+    #insta_div {
+        width: 100%;
+        padding-top: 0.75em;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #footer-div {
+        display: grid;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        z-index: 1;
+        text-align: center;
+        width: 30%;
+        height: auto;
+        background-color: rgb(178, 120, 109);
+        color: rgb(246, 197, 136);
+        margin-bottom: 0.5em;
+    }
+    #email a {
+        color: rgb(235, 135, 101);
+    }
+    .footer_item {
+        font-size: 1em;
+    }
+    #signature {
+        color: rgb(251, 168, 106);
+        font-size: 1.2em;
+    }
+    #insta {
+        width: 9%;
+        height: auto;
+    }
+    #text-div {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    p {
+        color: rgb(246, 197, 136);
+    }
+    h1 {
+        color: rgb(255, 165, 107);
+    }
+    h3 {
+        color: rgb(74, 67, 66);
+    }
+    #insta_div:hover {
+        background-color: rgb(249, 216, 174);
+        cursor: pointer;
+    }
+    #address:hover {
+        background-color: rgb(249, 216, 174);
+        cursor: pointer;
+    }
+    #email:hover {
+        background-color: rgb(249, 216, 174);
+        cursor: pointer;
+    }
+    #phone:hover {
+        background-color: rgb(249, 216, 174);
+        cursor: pointer;
+    }
+    #theme_div {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    #theme_submission {
+        margin-top: 0.25em;
+    }
+}
+@media all and (max-width: 1023px) {
+    body {
+        background-color: rgb(178, 120, 109);
+        font-family: 'Pangolin', cursive;
+    }
+    #background_img {
+        width: 100%;
+        height: 100%;
+    }
+    #background_div {
+        width: auto;
+        height: 100%;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        z-index: 0;
+    }
+    #grid {
+        z-index: 1;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        position: absolute;
+        margin-bottom: 5%;
+    }
+    #footer-div {
+        background-color: transparent;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .footer_item {
+        margin: 0.5em;
+    }
+    #signature {
+        color: rgb(251, 168, 106);
+    }
+    #insta {
+        height: 100%;
+        width: 100%;
+    }
+    #insta_div {
+        width: 4%;
+        z-index: 1;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #text-div {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    p {
+        color: rgb(246, 197, 136);
+    }
+    h1 {
+        color: rgb(255, 165, 107);
+    }
+    h3 {
+        color: rgb(74, 67, 66);
+    }
+    a {
+        color: rgb(246, 197, 136);
+    }
+    #address {
+        color: rgb(246, 197, 136);
+    }
+    #email {
+        color: rgb(246, 197, 136);
+    }
+    #email a {
+        color: rgb(235, 135, 101);
+    }
+    #phone {
+        color: rgb(246, 197, 136);
+    }
+    #signature {
+        color: rgb(246, 197, 136);
+        font-size: 1.1em;
+    }
+    #insta_div:hover {
+        background-color: none;
+    }
+    #address:hover {
+        background-color: none;
+    }
+    #email:hover {
+        background-color: none;
+    }
+    #phone:hover {
+        background-color: none;
+    }
+    #theme_submission {
+        margin-top: 0.5em;
+    }
+    #theme_div {
+        margin-top: 2.5em;
+        margin-bottom: 2.5em;
+    }
+    #project_header {
+        color: rgb(255, 165, 107);
+    }
+}
+@media all and (max-width: 930px) {
+    #insta_div {
+        width: 5%;
+    }
+@media all and (max-width: 800px) {
+    #insta_div {
+        width: 6%;
+    }
+}
