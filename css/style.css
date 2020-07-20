@@ -102,10 +102,6 @@
 }
 
 @media all and (max-width: 1099px) {
-    body {
-        background-color: rgb(226, 237, 242);
-        font-family: "Ubuntu", sans-serif;
-    }
     #background_div {
         width: auto;
         height: auto;
@@ -116,6 +112,13 @@
         height: 100%;
         width: 100%;
         opacity: 0.25;
+    }
+    body {
+        background-color: rgb(226, 237, 242);
+        font-family: "Ubuntu", sans-serif;
+    }
+    #email {
+        font-size: 1em;
     }
     #footer-div {
         position: absolute;
@@ -134,8 +137,6 @@
     .footer_div_2 {
         margin-top: 0.5em;
     }
-    #address a {
-    }
     #grid {
         position: fixed;
         text-align: center;
@@ -144,18 +145,12 @@
         z-index: 1;
         margin-top: 20%;
     }
-    #email {
-        font-size: 1em;
-    }
-
     #insta_div {
-        height: 5%;
-        width: auto;
-        text-align: center;
+        height: 4%;
+        width: 100%;
         margin-right: auto;
         margin-left: auto;
-    }
-    #phone {
+        text-align: center;
     }
     #insta {
         height: 100%;
