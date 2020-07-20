@@ -121,7 +121,7 @@
         font-size: 1em;
     }
     #footer-div {
-        position: absolute;
+        position: fixed;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto;
@@ -146,7 +146,7 @@
         margin-top: 20%;
     }
     #insta_div {
-        height: 4%;
+        height: auto;
         width: 100%;
         margin-right: auto;
         margin-left: auto;
@@ -154,7 +154,7 @@
     }
     #insta {
         height: 100%;
-        width: auto;
+        width: 5%;
     }
     #project_header {
         margin-bottom: 0.75em;
@@ -170,7 +170,7 @@
     }
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 925px) {
     #grid {
         width: 100%;
     }
@@ -196,7 +196,7 @@
     #grid {
         margin-top: 25%;
     }
-    #insta_div {
+    #insta {
         width: 6%;
     }
 }
