@@ -119,9 +119,13 @@
     }
     #footer-div {
         position: absolute;
-        top: 0;
-        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
         width: 100%;
+        height: auto;
+        z-index: 2;
+        margin-top: 1%;
         text-align: center;
     }
     .footer_div {
@@ -130,27 +134,32 @@
     .footer_div_2 {
         margin-top: 0.5em;
     }
+    #address a {
+    }
     #grid {
         position: fixed;
         text-align: center;
         width: 100%;
         height: auto;
-        margin-right: auto;
-        margin-left: auto;
-        bottom: 0;
-        margin-bottom: 5%;
+        z-index: 1;
+        margin-top: 20%;
     }
+    #email {
+        font-size: 1em;
+    }
+
     #insta_div {
-        width: 4%;
-        height: auto;
+        height: 5%;
+        width: auto;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 0.5em;
+    }
+    #phone {
     }
     #insta {
         height: 100%;
-        width: 100%;
+        width: auto;
     }
     #project_header {
         margin-bottom: 0.75em;
@@ -166,7 +175,7 @@
     }
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 900px) {
     #grid {
         width: 100%;
     }
@@ -188,7 +197,10 @@
     }
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 800px) {
+    #grid {
+        margin-top: 25%;
+    }
     #insta_div {
         width: 6%;
     }
@@ -199,4 +211,13 @@
         margin-top: 30%;
     }
 }
-
+@media all and (max-width: 550px) {
+    #grid {
+        margin-top: 35%;
+    }
+}
+@media all and (max-width: 420px) {
+    #grid {
+        margin-top: 35%;
+    }
+}
