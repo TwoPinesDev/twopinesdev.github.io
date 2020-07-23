@@ -10,11 +10,11 @@
 */
 @media all and (min-width: 851px) {
     a {
-        color: rgb(42, 65, 47);
         font-size: 1.25em;
+        text-decoration: none;
     }
     #address:hover {
-        background-color: rgb(219, 240, 225);
+        background-color: teal;
         cursor: pointer;
     }
     #background_div {
@@ -25,7 +25,6 @@
         height: 100%;
         z-index: 0;
     }
-
     #background_img {
         width: 100%;
         height: 100%;
@@ -35,11 +34,14 @@
         text-align: center;
         font-family: "Bree Serif", serif;
     }
+    #email {
+        width: 100%;
+    }
     #email a {
         color: rgb(77, 132, 100);
     }
     #email:hover {
-        background-color: rgb(219, 240, 225);
+        background-color: teal;
         cursor: pointer;
     }
     #footer-div {
@@ -74,9 +76,11 @@
     }
     h1 {
         color: rgb(42, 65, 47);
+        margin-top: 1.5em;
     }
     h3 {
         color: rgb(77, 132, 100);
+        text-shadow: 1px 1px black;
     }
 
     #insta_div {
@@ -88,12 +92,13 @@
     }
     #insta_div:hover {
         cursor: pointer;
+        background-color: teal;
     }
     p {
         color: rgb(42, 65, 47);
     }
     #phone:hover {
-        background-color: rgb(219, 240, 225);
+        background-color: teal;
         cursor: pointer;
     }
     #text-div {
@@ -114,20 +119,16 @@
     }
 }
 
-@media all and (max-width: 850px) {
-    a {
-        color: rgb(174, 208, 189);
-        font-size: 1.25em;
-    }
+@media all and (max-width: 1050px) {
     #address {
         text-align: center;
         font-size: 0.5em;
         color: rgb(219, 240, 225);
         margin-bottom: 0.1em;
+        text-shadow: 2px 2px black;
     }
     #address a {
-        color: rgb(219, 240, 225);
-        background-color: rgb(77, 132, 100);
+        color: rgb(241, 246, 249);
     }
     #background_div {
         height: 100%;
@@ -156,12 +157,10 @@
         margin-bottom: 0.1em;
         padding-right: 1em;
         color: rgb(219, 240, 225);
-        margin-left: 1em;
+        text-shadow: 2px 2px black;
     }
     #email a {
-        color: rgb(219, 240, 225);
-        background-color: rgb(77, 132, 100);
-        font-size: 1em;
+        color: rgb(241, 246, 249);
     }
     .footer_div_1:hover {
         background-color: none;
@@ -178,13 +177,12 @@
         margin-left: auto;
         text-align: center;
         width: 100%;
-        height: auto;
-        margin-top: 2%;
+        height: 24%;
+        margin-top: 5%;
         z-index: 2;
     }
-    .footer_items {
-        margin-top: auto;
-        margin-bottom: auto;
+    .footer_div_2 {
+        padding-top: 0.6em;
     }
     #grid {
         position: absolute;
@@ -193,24 +191,25 @@
         height: auto;
         z-index: 1;
         top: 0;
-        margin-top: 20%;
+        margin-top: 23%;
     }
     h1 {
         color: rgb(174, 208, 189);
+        text-shadow: 1px 1px black;
     }
 
     h3 {
         color: rgb(77, 132, 100);
     }
     #header {
-        color: rgb(42, 65, 47);
+        color: rgb(138, 187, 159);
     }
     #insta {
         height: 100%;
-        width: 100%;
+        width: 4%;
     }
     #insta_div {
-        width: 4%;
+        width: 100%;
         height: auto;
         z-index: 1;
         margin-left: auto;
@@ -219,26 +218,35 @@
     }
     p {
         color: white;
+        text-shadow: 1px 1px black;
+        margin-top: 1.5em;
+    }
+    .projects {
+        text-shadow: 1px 1px black;
+    }
+    .projects:hover {
+        background-color: teal;
     }
     #phone {
         text-align: center;
         margin-bottom: 0.1em;
         color: rgb(219, 240, 225);
+        text-shadow: 2px 2px black;
     }
     #phone a {
         color: rgb(219, 240, 225);
-        background-color: rgb(77, 132, 100);
     }
     .projects {
-        font-size: 1em;
+        font-size: 1.15em;
+        color: rgb(219, 240, 225);
     }
     #project_header {
         margin-bottom: 1em;
-        margin-top: 0.3em;
+        margin-top: 1em;
         color: rgb(138, 187, 159);
     }
     #text-div {
-        width: 50%;
+        width: 70%;
         margin-right: auto;
         margin-left: auto;
     }
@@ -247,51 +255,20 @@
     }
     #theme_submission {
         margin-top: 0.5em;
-        margin-bottom: 2em;
     }
 }
 
-@media all and (max-width: 830px) {
+@media all and (max-width: 850px) {
     #grid {
-        margin-top: 20%;
+        margin-top: 25%;
     }
-}
-
-@media all and (max-width: 750px) {
-    #grid {
-        margin-top: 24%;
+    h1 {
+        margin-top: 2em;
     }
     #insta {
-        width: 170%;
+        width: 5%;
     }
-}
-@media all and (max-width: 650px) {
-    #grid {
-        margin-top: 27%;
-    }
-}
-@media all and (max-height: 500px) {
-        #footer-div {
-        height: 32%;
-    }
-}
-@media all and (max-height: 400px) {
-    #footer-div {
-        height: 36%;
-    }
-}
-@media all and (max-height: 300px) {
-        #footer-div {
-        height: 40%;
-    }
-}
-@media all and (max-height: 300px) {
-            #footer-div {
-        height: 45%;
-    }
-}
-@media all and (max-height: 200px) {
-            #footer-div {
-        height: 50%;
+    #theme_div {
+        margin-top: 2.5em;
     }
 }
