@@ -121,7 +121,7 @@
         font-size: 1em;
     }
     #footer-div {
-        position: fixed;
+        position: absolute;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto;
@@ -138,7 +138,7 @@
         margin-top: 0.5em;
     }
     #grid {
-        position: fixed;
+        position: absolute;
         text-align: center;
         width: 100%;
         height: auto;
