@@ -11,7 +11,7 @@ function colorize_1() {
 
 function colorize_2() {
     for (let i = 0; i < footer_div_2.length; i++) {
-        footer_div_2[i].style.color = "rgb(226, 237, 242)";
+        footer_div_2[i].style.color = "black";
         footer_div_2[i].setAttribute("align", "center");
     }
 }
@@ -88,27 +88,27 @@ function switcheroo() {
 
 function theme_1() {
     document.getElementById("background_img").src = "img/pines_4.jpg";
-    y.href = "css/style.css";
+    y.href = "css/style1.css";
     document.getElementById("insta").src = "img/logo-instagram-1.png";
+    colorize_2();
 }
 
 function theme_2() {
     document.getElementById("background_img").src = "img/pines_1.jpg";
-    y.href = "css/style1.css";
+    y.href = "css/style2.css";
     document.getElementById("insta").src = "img/logo-instagram-1.png";
     colorize_1();
 }
 
 function theme_3() {
     document.getElementById("background_img").src = "img/pines_2.jpg";
-    y.href = "css/style2.css";
-    colorize_3();
+    y.href = "css/style3.css";
 }
 
 function theme_4() {
     document.getElementById("background_img").src = "img/pines_3.jpg";
-    y.href = "css/style3.css";
-    colorize_1();
+    y.href = "css/style4.css";
+    
 }
 
 $("#theme_submission").click(() => {
