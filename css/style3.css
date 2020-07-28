@@ -52,7 +52,7 @@
         top: 0;
         right: 0;
         width: 45%;
-        height: 20%;
+        height: 12.5%;
         z-index: 2;
     }
     .footer_item {
@@ -66,7 +66,7 @@
         position: absolute;
         text-align: center;
         width: 43%;
-        height: auto;
+        height: 87.5%;
         right: 0;
         margin-left: auto;
         margin-right: auto;
@@ -102,7 +102,7 @@
         cursor: pointer;
     }
     #text-div {
-        width: 70%;
+        width: 80%;
         margin-right: auto;
         margin-left: auto;
     }
@@ -178,7 +178,6 @@
         z-index: 2;
         margin-top: 5%;
         text-align: center;
-
     }
     .footer_div_2 {
         padding-top: 0.6em;
