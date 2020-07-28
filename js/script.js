@@ -2,9 +2,8 @@ const footer_div = document.getElementsByClassName("footer_div");
 const footer_div_2 = document.getElementsByClassName("footer_div_2");
 const y = document.getElementById("css_switch");
 const themes = document.getElementById("themes");
-function colorize_1() {
+function center_shit() {
     for (let i = 0; i < footer_div_2.length; i++) {
-        footer_div_2[i].style.color = "rgb(226, 237, 242)";
         footer_div_2[i].setAttribute("align", "center");
     }
 }
@@ -81,7 +80,7 @@ function switcheroo() {
         theme_3();
     } else if (x === 2) {
         theme_4();
-    } else {
+    } else if (x === 3){
         theme_1();
     }
 }
@@ -90,25 +89,26 @@ function theme_1() {
     document.getElementById("background_img").src = "img/pines_4.jpg";
     y.href = "css/style1.css";
     document.getElementById("insta").src = "img/logo-instagram-1.png";
-    colorize_2();
+    center_shit();
 }
 
 function theme_2() {
     document.getElementById("background_img").src = "img/pines_1.jpg";
     y.href = "css/style2.css";
     document.getElementById("insta").src = "img/logo-instagram-1.png";
-    colorize_1();
+    center_shit();
 }
 
 function theme_3() {
     document.getElementById("background_img").src = "img/pines_2.jpg";
     y.href = "css/style3.css";
+    center_shit();
 }
 
 function theme_4() {
     document.getElementById("background_img").src = "img/pines_3.jpg";
     y.href = "css/style4.css";
-    
+    center_shit();
 }
 
 $("#theme_submission").click(() => {
@@ -129,5 +129,3 @@ switcheroo();
 //theme_3();
 //theme_4();
 //Temp function
-
-
