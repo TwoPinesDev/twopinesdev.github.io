@@ -181,31 +181,26 @@ color: rgb(42, 80, 117);
         text-decoration: none;
     }
     #footer-div {
-        background-color: transparent;
         position: absolute;
-        z-index: 1;
-        top: 0;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
         width: 100%;
         height: auto;
-        margin-top: 5%;
         z-index: 2;
+        margin-top: 5%;
+        text-align: center;
     }
     .footer_div_2 {
         flex: 1;
     }
     #grid {
         position: absolute;
-        z-index: 1;
         text-align: center;
-        top: 0;
-        margin-top: 25%;
         width: 100%;
         height: auto;
-        margin-right: auto;
-        margin-left: auto;
+        z-index: 1;
+        margin-top: 24%;
     }
     #header {
         margin-bottom: 2em;
