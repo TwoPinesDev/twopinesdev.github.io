@@ -9,6 +9,9 @@
 */
 
 @media all and (min-width: 1024px) {
+    #address {
+        text-shadow: 1px 1px black;
+    }
     #address:hover {
         background-color: rgb(249, 216, 174);
         cursor: pointer;
@@ -24,9 +27,13 @@
         bottom: 0;
         right: 0;
     }
+    #email {
+        text-shadow: 1px 1px black;
+    }
     #email a {
         color: rgb(46, 45, 62);
-        text-decoration: none;
+        text-shadow: none;
+
     }
     #email:hover {
         background-color: rgb(249, 216, 174);
@@ -88,6 +95,9 @@
     p {
         color: rgb(246, 197, 136);
     }
+    #phone {
+        text-shadow: 1px 1px black;
+    }
     #phone:hover {
         background-color: rgb(249, 216, 174);
         cursor: pointer;
@@ -95,6 +105,7 @@
     .projects {
         color: rgb(46, 45, 62);
         text-decoration: none;
+        font-size: 1.15em;
     }
     #project_header {
         color: rgb(246, 197, 136);
@@ -111,14 +122,15 @@
     }
     #theme_submission {
         margin-top: 0.25em;
+        box-shadow: 1px 1px black;
     }
 }
 @media all and (max-width: 1023px) {
     a {
-        color: rgb(246, 197, 136);
+        color: rgb(249, 216, 174);
     }
     #address {
-        color: rgb(246, 197, 136);
+        color: rgb(249, 216, 174);
         text-shadow: 1px 1px black;
     }
     #address:hover {
@@ -140,12 +152,20 @@
         background-color: rgb(178, 120, 109);
         font-family: "Pangolin", cursive;
     }
+    #container {
+        height: 90%;
+        width: 100%;
+        position: absolute;
+        margin-top: 2%;
+    }
     #email {
-        color: rgb(246, 197, 136);
+        color: rgb(249, 216, 174);
         text-shadow: 1px 1px black;
     }
     #email a {
-        color: rgb(235, 135, 101);
+        color: rgb(246, 197, 136);
+        text-shadow: 1px 1px black;
+        text-decoration: none;
     }
     #email:hover {
         background-color: none;
@@ -210,11 +230,11 @@
         text-shadow: 1px 1px black;
     }
     #phone {
-        color: rgb(246, 197, 136);
+        color: rgb(249, 216, 174);
         text-shadow: 1px 1px black;
     }
     #phone a {
-        color: rgb(246, 197, 136);
+        color: rgb(249, 216, 174);
     }
     #phone:hover {
         background-color: none;
@@ -245,6 +265,12 @@
     }
 }
 @media all and (max-width: 930px) {
+    #container {
+        height: 90%;
+        width: 100%;
+        position: absolute;
+        margin-top: 4%;
+    }
     #grid {
         margin-top: 25%;
     }
@@ -253,6 +279,12 @@
     }
 }
 @media all and (max-width: 800px) {
+    #container {
+        height: 90%;
+        width: 100%;
+        position: absolute;
+        margin-top: 6%;
+    }
     #grid {
         margin-top: 28%;
     }
