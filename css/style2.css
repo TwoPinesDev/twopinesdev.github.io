@@ -157,6 +157,7 @@
         width: 100%;
         position: absolute;
         margin-top: 2%;
+        top: 0;
     }
     #email {
         color: rgb(249, 216, 174);
