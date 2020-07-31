@@ -179,6 +179,7 @@
         height: 90%;
         width: 100%;
         position: absolute;
+        top: 0;
         margin-top: 6%;
     }
     #email {
