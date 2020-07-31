@@ -2,6 +2,10 @@ const footer_div = document.getElementsByClassName("footer_div");
 const footer_div_2 = document.getElementsByClassName("footer_div_2");
 const y = document.getElementById("css_switch");
 const themes = document.getElementById("themes");
+const options = document.getElementsByClassName("options")[0];
+
+console.log(options);
+
 function center_shit() {
     for (let i = 0; i < footer_div_2.length; i++) {
         footer_div_2[i].setAttribute("align", "center");
@@ -121,10 +125,11 @@ $("#theme_submission").click(() => {
     } else if ($("#themes").val() === "theme_4") {
         theme_4();
     }
+        
 });
 
-switcheroo();
-//theme_1();
+//switcheroo();
+theme_1();
 //theme_2();
 //theme_3();
 //theme_4();
